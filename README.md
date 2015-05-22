@@ -73,8 +73,8 @@ You should see `acl` if you run mount again.
 Let's give the `apache` and `symfony` users read, write, execute access on the `logs` and `cache` directories.
 
 ```
-sudo setfacl -R -n -m u:apache:rwX -m u:symfony:rwX /usr/local/web/api/shared/cache /usr/local/web/api/shared/logs
-sudo setfacl -dR -n -m u:apache:rwX -m u:symfony:rwX /usr/local/web/api/shared/cache /usr/local/web/api/shared/logs
+$ sudo setfacl -R -n -m u:apache:rwX -m u:symfony:rwX /usr/local/web/api/shared/cache /usr/local/web/api/shared/logs
+$ sudo setfacl -dR -n -m u:apache:rwX -m u:symfony:rwX /usr/local/web/api/shared/cache /usr/local/web/api/shared/logs
 ```
 
 ### Enabling SELinux
