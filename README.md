@@ -4,6 +4,29 @@
 
 Make sure to configure git with basic defaults.
 
+## Git branches
+
+Create new branches
+
+```sh
+$ git checkout -b mynewbranch
+$ git checkout -b my-new-branch
+```
+
+Use lowercase and `-` instead of spaces or underscores.  Why? It looks prettier.
+
+## Git commit message
+
+Use the project name, followed by a `-` with a brief (under 80 chars) description.  When you need to add a more descriptive message, add your long format message after two newlines.  Example (Assuming the project is called `boltools`):
+
+```
+boltools - updating entities for mariner database
+
+* adds Actions
+* adds Logonids
+```
+
+
 ## Git sanity check
 
 This will make sure that when you do a 'git push', only your _current_ branch will be sent upstream.
