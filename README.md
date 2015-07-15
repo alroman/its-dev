@@ -1,6 +1,15 @@
 # IAM Devevloper
 
-# Git Basics
+Table of contents:
+
+* [Git](#Git)
+ - [branches](#git-branches)
+ - [commit messages](#git-commit-message)
+ - [sanity check](#git-sanity-check)
+* [Deployment](#app-deployment)
+ - [Symfony](#symfony-deployment)
+
+# Git
 
 Make sure to configure git with basic defaults.
 
@@ -17,7 +26,7 @@ Use lowercase and `-` instead of spaces or underscores.  Why? It looks prettier.
 
 ## Git commit message
 
-Use the project name, followed by a `-` with a brief (under 80 chars) description.  When you need to add a more descriptive message, add your long format message after two newlines.  Example (Assuming the project is called `boltools`):
+Use the project name, followed by a `-` with a brief (under 80 chars) description.  The project name can sometimes be the JIRA project short name.  When you need to add a more descriptive message, add your long format message after two newlines.  Example with project is called `boltools`:
 
 ```
 boltools - updating entities for mariner database
@@ -26,6 +35,10 @@ boltools - updating entities for mariner database
 * adds Logonids
 ```
 
+Example with project called `iamucla`
+```
+iamucla - updating composer dependencies.
+```
 
 ## Git sanity check
 
