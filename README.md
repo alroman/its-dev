@@ -40,6 +40,18 @@ Example with project called `iamucla`
 iamucla - updating composer dependencies.
 ```
 
+### Commit message editor
+
+To set your git commit editor, set the global config `core.editor` to your editor of choice.  For example, to set `vim` as your editor, use
+
+```sh
+$ git config --global core.editor "vim"
+```
+
+The next time you want to commit your staged edits, you can run `git commit` and you'll be able to edit the commit message in your editor of choice.
+
+For a simple one line commit message you can use `git commit -m "Quick one liner"`
+
 ## Git sanity check
 
 This will make sure that when you do a 'git push', only your _current_ branch will be sent upstream.
